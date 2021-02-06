@@ -1,10 +1,10 @@
 import Header from './components/Header';
-import Main from './components/Main';
+import Main from './components/Main/Main';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="flex flex-col h-screen bg-red-200 overflow-auto">
+    <div className="flex flex-col h-screen overflow-auto">
       <Header />
       <Main />
       <Footer />
